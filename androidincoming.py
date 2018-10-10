@@ -92,9 +92,9 @@ jdappOverview = 'installs_com.justdial.search_' + currentMonth + '_overview.csv'
 
 #print jdliteOverview
 
-liteProcess = os.system("./google-cloud-sdk/bin/gsutil cp gs://pubsite_prod_rev_10488116533669807039/stats/installs/"+ jdliteOverview +" reports/jdlite")
+liteProcess = os.system("./google-cloud-sdk/bin/gsutil cp gs://pubsite_prod_rev_1048811653366xxxxxxx/stats/installs/"+ jdliteOverview +" reports/jdlite")
 
-searchProcess = os.system("./google-cloud-sdk/bin/gsutil cp gs://pubsite_prod_rev_10488116533669807039/stats/installs/"+ jdappOverview + " reports/jdsearch")
+searchProcess = os.system("./google-cloud-sdk/bin/gsutil cp gs://pubsite_prod_rev_1048811653366xxxxxxx/stats/installs/"+ jdappOverview + " reports/jdsearch")
 
 #print searchProcess
 
